@@ -1,0 +1,20 @@
+defusedspawners:
+  tiers:
+    1:
+      cost: 10
+      spawn-rate: 1.0
+    2:
+      cost: 20
+      spawn-rate: 0.75
+    3:
+      cost: 30
+      spawn-rate: 0.5
+  gui-layout:
+    title: "Spawner Upgrades"
+    size: 9
+
+factioncores:
+  core-beacon:
+    health: 100
+    tnt-damage: 1
+    broadcast-message: "&6[Factions] &c%s's core has been destroyed by %s!"

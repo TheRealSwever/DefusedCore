@@ -1,0 +1,16 @@
+name: DefusedCore
+version: 1.0
+main: me.swever.defusedcore.DefusedCore
+api-version: 1.20
+depend: [Factions]
+commands:
+  mycommand:
+    description: gives player a tier spawner
+    usage: /spawner <args>
+    permission: dc.spawner.give
+    permission-message: You don't have permission to use this command
+# Define any commands if necessary
+permissions:
+  defusedcore.admin:
+    description: "Admin permission for DefusedCore"
+    default: op
